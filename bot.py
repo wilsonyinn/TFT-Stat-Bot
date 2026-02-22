@@ -25,7 +25,8 @@ IMAGE_MAP = {
     "spoils": "images/spoils_of_war.png",
     "egg": "images/the_golden_egg.png",
     "treasure": "images/treasure_hunt.png",
-    "warpath": "images/warpath_chest.png"
+    "warpath": "images/warpath_chest.png",
+    "ixtal": "images/ixtal.png"
 }
 
 @bot.event
