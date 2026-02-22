@@ -45,7 +45,7 @@ async def show(ctx, item: str):
             with open(file_path, 'rb') as f:
                 await ctx.send(f"Loot table for **{item_key.capitalize()}**:", file=discord.File(f))
         else:
-            await ctx.send(f"Error: File `{file_path}` not found in the local images folder .")
+            await ctx.send(f"Error: File `{file_path}` not found in the local images folder.")
     else:
         # Suggest valid keys if the user makes a typo
         options = ", ".join(IMAGE_MAP.keys())
